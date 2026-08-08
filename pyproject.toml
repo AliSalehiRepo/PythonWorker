@@ -3,4 +3,3 @@ name = "PythonWorker"
 version = "0.1.0"
 description = "Python scraping Worker"
 requires-python = ">=3.13"
-
