@@ -1,5 +1,8 @@
-[project]
-name = "PythonWorker"
-version = "0.1.0"
-description = "Python scraping Worker"
-requires-python = ">=3.13"
+{
+  "name": "pythonworker",
+  "main": "src/entry.py",
+  "compatibility_date": "2026-07-28",
+  "compatibility_flags": [
+    "python_workers"
+  ]
+}
