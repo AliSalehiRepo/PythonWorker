@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 [dependency-groups]
 dev = [
     "workers-py",
-    "workers-runtime-sdk"
+    "workers-runtime-sdk",
+    "disable_python_external_sdk"
 ]
 
