@@ -1,6 +1,4 @@
-from workers import WorkerEntrypoint, Response
+from js import Response
 
-
-class Default(WorkerEntrypoint):
-    async def fetch(self, request):
-        return Response("Hello from Python!")
+async def on_fetch(request):
+    return Response.new("Hello from Python!")
