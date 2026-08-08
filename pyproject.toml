@@ -8,6 +8,5 @@ requires-python = ">=3.13"
 dev = [
     "workers-py",
     "workers-runtime-sdk",
-    "disable_python_external_sdk"
 ]
 
